@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.wrapper nav ul {
+  display: flex;
+  text-decoration: none;
+}
+.wrapper nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+.wrapper nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.contact-button {
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-radius: 40px;
+  color: black !important;
+  font-weight: bold;
+}
+.img-building {
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+.img-building img {
+  margin-top: -100px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+.content-wrapper h1 {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.img-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.img-box-container img {
+  width: 18%;
+  height: 18%;
+}
+article {
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+article p {
+  margin-bottom: 30px;
+}
+button {
+  padding: 10px 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.contact {
+  background-color: blue;
+  display: flex;
+}
+.contact-text {
+  color: white;
+}
+.contact-text h2,
+p {
+  margin-bottom: 30px;
+}
+.contact-text img {
+  width: 70%;
+}
+.phone-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icon-button {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.phone-button-wrapper a {
+  text-decoration: none;
+  color: white;
+}
+.message-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icon-mail {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.icon-mail img {
+  width: 30px;
+  height: 30px;
+}
+.message-button-wrapper a {
+  text-decoration: none;
+  color: white;
+}
+.contact-info {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-top: 50px;
+}
+.left-side {
+  padding-left: 100px;
+  padding-top: 200px;
+  width: 50%;
+}
+.left-bottom-text {
+  display: flex;
+  align-items: center;
+}
+.left-bottom-text p {
+  color: white;
+  margin-top: 300px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(116, 116, 119);
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #007bff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-button {
+  width: 100px;
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom-text p {
+  margin: 0;
+  color: white;
+}
+
+.right-side {
+  width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-side {
+  padding-top: 150px;
+  padding-left: 140px;
+}
+
+h6 {
+  margin-top: 220px;
+}
+.contact-form {
+  padding-top: 300px;
+}
